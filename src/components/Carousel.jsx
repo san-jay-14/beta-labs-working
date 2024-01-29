@@ -29,13 +29,7 @@ const Carosel = () => {
 
   return (
     <div className="big-div">
-      <div
-        className="card-container"
-        style={{
-          zIndex: "2",
-          position: "relative",
-        }}
-      >
+      <div className="card-container">
         <div className="card">
           <Card
             EventName={"sankranthi"}
@@ -58,26 +52,8 @@ const Carosel = () => {
           />
         </div>
       </div>
-      <img
-        src={comp}
-        style={{
-          height: "414px",
-          width: "301px",
-          position: "absolute",
-          zIndex: "1",
-          marginLeft: "115px",
-        }}
-      />
-      <img
-        src={img}
-        onClick={next}
-        alt="Arrow icon"
-        style={{
-          cursor: "pointer",
-          zIndex: "500",
-          marginLeft: "45px",
-        }}
-      />
+      <img className="card-img" src={comp} />
+      <img className="arrow" src={img} onClick={next} alt="Arrow icon" />
     </div>
   );
 };

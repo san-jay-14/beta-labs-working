@@ -1,29 +1,86 @@
 .card-container {
-    position: relative;
-    box-shadow: 10px 50px 50px black,
-  }
-  
-  .card {
-    position: absolute;
-    border-radius: 40px;
-    height: 414px;
-    width: 377px;
-    background: linear-gradient(180deg, #6400C9 0%, #00C9C9 100%);
-    justify-content: center;
-    padding-bottom: 88px;
-    padding-top: 40px;
-    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+  position: relative;
+  box-shadow: 0px 4px 19px black;
 }
 
-  .card1 {
-    z-index: 1;
-  }
-  
-  .card2 {
-    z-index: 2;
-  }
-  
-  .card3 {
-    z-index: 3;
-  }
-  
+.card {
+  position: absolute;
+  border-radius: 40px;
+  height: 414px;
+  width: 377px;
+  background: linear-gradient(180deg, #6400c9 0%, #00c9c9 100%);
+  justify-content: center;
+  padding-bottom: 88px;
+  padding-top: 40px;
+  /* Adjust the values as needed */
+}
+
+.card1 {
+  z-index: 1;
+}
+
+.card2 {
+  z-index: 2;
+}
+
+.card3 {
+  z-index: 3;
+}
+
+button {
+  color: white;
+  font-size: 24px;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-div {
+  margin-left: 103px;
+  height: 46px;
+  width: 203px;
+  background: linear-gradient(90deg, #fd00b6 0%, #5100fd 100%);
+  border-radius: 11px;
+}
+
+.desc-div {
+  margin-left: 50px;
+  width: auto;
+  height: auto;
+  color: white;
+  font-size: 36px;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+  line-height: 36px;
+}
+
+.date-div {
+  color: white;
+  font-size: 36px;
+  font-family: Josefin Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+  padding-left: 20px;
+  padding-right: 20px;
+  line-height: 36px;
+}
+
+.event-name-div {
+  color: white;
+  font-size: 48px;
+  font-family: Josefin Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+  line-height: 48px;
+  height: auto;
+  padding: 0;
+  margin-bottom: 6px;
+}
+
+.card-div {
+  background: linear-gradient(180deg, #6400c9 0%, #00c9c9 100%);
+}

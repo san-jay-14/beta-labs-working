@@ -1,72 +1,86 @@
 .big-div {
-    display: flex;
-    flex-direction: row;
-    border: none;
-  }
-  
-  .card-container {
-    position: relative;
-    width: 377px;
-    height: 414px;
-    margin: 0 ;
-    overflow: hidden;
-    border-radius: 40px;
-    perspective: 1000px; /* Set the perspective for 3D effect */
-    border: none;
-    z-index: 1;
-  }
-  
-  .card {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    
-    
-    border-radius: 40px;
-    transition: transform 0.5s ease;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    transform-origin: right center;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .card:not(:first-child) {
-    transform: translateX(100%);
-  }
-  
-  .nav-buttons {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 20px;
-    box-sizing: border-box;
-  }
-  
-  .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    height: 50px;
-    width: 60px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-left: 100px
-  }
-  
-  .button:hover {
-    background-color: #ddd;
-  }
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
 
-  .login-content {
-    display: flex;
-    gap: 3px;
-  }
+.card-container {
+  position: relative;
+  width: 377px;
+  height: 414px;
+  margin: 0;
+  overflow: hidden;
+  border-radius: 40px;
+  perspective: 1000px; /* Set the perspective for 3D effect */
+  border: none;
+  z-index: 2;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 40px;
+  transition: transform 0.5s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  transform-origin: right center;
+  padding: 0;
+  margin: 0;
+}
+
+.card:not(:first-child) {
+  transform: translateX(100%);
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  width: 60px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.button:hover {
+  background-color: #ddd;
+}
+
+.login-content {
+  display: flex;
+  gap: 3px;
+}
+
+.card-img {
+  height: 414px;
+  width: 301px;
+  position: absolute;
+  z-index: 1;
+  margin-left: 115px;
+  margin-top: 2px;
+}
+
+.arrow {
+  cursor: pointer;
+  margin-left: 45px;
+}
