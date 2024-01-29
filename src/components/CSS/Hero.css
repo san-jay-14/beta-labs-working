@@ -1,0 +1,210 @@
+.hero-container {
+    background-color: black;
+    width: 100vw;
+    height: 1050px;
+    box-sizing: border-box;
+    box-shadow: inset -15px 15px 43.2px -10px rgba(247, 247, 247, 0.25);
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .text-section {
+    display: flex;
+    flex-direction: column;
+    margin-left: 76px;
+    margin-bottom: 134px;
+    gap: 25px;
+  }
+  
+  .title {
+    margin-top: 120px;
+    font-size: 64px;
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    word-wrap: break-word;
+    line-height: 70px;
+    height: auto;
+    width: 696px;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(90deg, #0074C8, #B855DBAA, #6400C9);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .search-section {
+    position: relative;
+    width: 529px;
+    height: 64px;
+    display: flex;
+  }
+  
+  .gradient-mask {
+    position: absolute;
+    inset: 0;
+    border-radius: 7px;
+    padding: 1px;
+    background: linear-gradient(to right, #1400FF, #AF00DAF2, #6100DCC7, #B600E4, #EB00B7);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    z-index: 1;
+  }
+  
+  .search-input {
+    width: 448px;
+    height: 64px;
+    background: rgba(214, 93, 177, 0.10);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 36px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-left: 18px;
+    z-index: 2;
+  }
+  
+  .divider {
+    width: 1px;
+    background-color: #6400C9;
+  }
+  
+  .action-key {
+    width: 81px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(214, 93, 177, 0.10);
+    border: 1px solid transparent;
+    border-radius: 7px;
+    box-sizing: border-box;
+    z-index: 1;
+    cursor: pointer;
+  }
+  
+  .description {
+    width: 696px;
+    height: auto;
+    color: white;
+    font-size: 48px;
+    font-family: "Josefin Sans";
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .upcoming-events {
+    margin-top: 77px;
+    height: auto;
+    margin-left: 89px;
+  }
+  
+  .upcoming-title {
+    width: 280px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-bottom: 6px;
+    margin-left: 83px;
+    margin-top: 15px;
+    color: white;
+    font-family: "Josefin Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  
+  .xyz-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .abc-container {
+    position: relative;
+  }
+  
+  .random-image {
+    height: 383px;
+    width: 611px;
+  }
+  
+  .random-text {
+    position: absolute;
+    top: 0;
+  }
+  
+  .random-title {
+    background: linear-gradient(45deg, #6400C9, #DD61C2C9, #9500F0, #9500F000);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 20px;
+    font-family: 'Inter';
+    font-weight: 800;
+    margin-top: 105px;
+    margin-left: 264px;
+    margin-bottom: 6px;
+  }
+  
+  .random-white-text {
+    color: white;
+    font-size: 48px;
+    font-family: 'Josefin Sans';
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-left: 104px;
+    margin-bottom: 6px;
+  }
+  
+  .random-gray-text {
+    width: 100%;
+    color: #BDBDBD;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+    margin-left: 178px;
+    margin-bottom: 18px;
+  }
+  
+  .random-button {
+    width: 193px;
+    height: 47px;
+    border-radius: 7px;
+    position: relative;
+    overflow: hidden;
+    margin-left: 218px;
+  }
+  
+  .random-gradient {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    background: linear-gradient(to left, #1400FF, #AF00DAF2, #6100DCC7, #B600E4, #EB00B7);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+  
+  .random-button-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    word-wrap: break-word;
+    z-index: 1;
+  }
+  

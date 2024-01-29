@@ -1,0 +1,29 @@
+.card-container {
+    position: relative;
+    box-shadow: 10px 50px 50px black,
+  }
+  
+  .card {
+    position: absolute;
+    border-radius: 40px;
+    height: 414px;
+    width: 377px;
+    background: linear-gradient(180deg, #6400C9 0%, #00C9C9 100%);
+    justify-content: center;
+    padding-bottom: 88px;
+    padding-top: 40px;
+    box-shadow: 0 4px 19px rgba(0, 0, 0, 0.3); /* Adjust the values as needed */
+}
+
+  .card1 {
+    z-index: 1;
+  }
+  
+  .card2 {
+    z-index: 2;
+  }
+  
+  .card3 {
+    z-index: 3;
+  }
+  
